@@ -6,13 +6,23 @@ namespace DemoInheritance
     {
         static void Main(string[] args)
         {
-            Lion l1 = new Lion();
-            Lion l2 = new Lion();
-            Lion l3 = new Lion();
+            Camel camel = new Camel();
+            Person person = new Person();
+            Lion lion = new Lion();
+            Snake snake = new Snake();
 
-            l1.Hunt();
-            l2.Hunt();
-            l3.Drink();
+            person.Drink();
+            person.Eat();
+            person.Hunt();
+
+            lion.Drink();
+            lion.Eat();
+            lion.Hunt();
+
+            snake.Drink();
+            snake.Eat();
+            snake.Hunt();
+
         }
     }
 }
